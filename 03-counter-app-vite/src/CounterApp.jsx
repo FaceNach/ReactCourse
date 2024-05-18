@@ -2,7 +2,6 @@ import {useState} from 'react';
 import Proptypes from 'prop-types';
 
 
-
 export const CounterApp = ({value}) => 
     {
         const [counter, setCounter] = useState(value);
