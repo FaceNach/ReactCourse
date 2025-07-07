@@ -1,7 +1,7 @@
 //Variables and constants
 
 const name ='Nacho';
-const surname = 'Gun';
+const surname = 'Holis';
 
 let valueDice = 5;
 valueDice = 4;
