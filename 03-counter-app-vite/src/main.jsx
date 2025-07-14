@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {App, JustTesting, TestingFromFunction} from "./HelloWorldApp.jsx";
+import {FirstApp} from "./FirstApp.jsx";
+import {CounterApp} from "./CounterApp.jsx";
 
-function App(){
-    return <h1>Hello world!</h1>
-}
+
+
+import './styles.css';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <App />
+        {/*<App />*/}
+        {/*<JustTesting />*/}
+        {/*<TestingFromFunction name="Nach"/>*/}
+        {/*<FirstApp title='Hello World' subTitle={123}  />*/}
+        <CounterApp value={20} />
     </React.StrictMode>
 );
